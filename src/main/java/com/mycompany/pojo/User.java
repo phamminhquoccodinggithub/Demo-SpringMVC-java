@@ -4,6 +4,9 @@
  */
 package com.mycompany.pojo;
 
+import org.springframework.http.codec.multipart.Part;
+import org.springframework.web.multipart.MultipartFile;
+
 /**
  *
  * @author Quoc
@@ -11,6 +14,17 @@ package com.mycompany.pojo;
 public class User {
     private String username;
     private String password;
+    private MultipartFile avatar;
+
+    public MultipartFile getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(MultipartFile avatar) {
+        this.avatar = avatar;
+    }
+
+   
 
     public String getUsername() {
         return username;

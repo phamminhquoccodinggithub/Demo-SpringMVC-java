@@ -1,3 +1,5 @@
-com\mycompany\configs\WebAppContextConfig.class
-com\mycompany\configs\DispatcherServletInit.class
 com\mycompany\controller\HomeController.class
+com\mycompany\configs\WebAppContextConfig.class
+com\mycompany\pojo\User.class
+com\mycompany\configs\DispatcherServletInit.class
+com\mycompany\configs\HibernateConfig.class
